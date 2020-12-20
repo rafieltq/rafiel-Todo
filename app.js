@@ -10,7 +10,7 @@ boxTareas = [];
 getTareas ();
 
 //Agregar eventos
-tareaBtn.addEventListener('click', () => createTarea(tareaText.value));
+tareaBtn.addEventListener('click', () => validarTask());
 
 //Crear funciones
 function createTarea (tareaContent) {
@@ -20,6 +20,14 @@ function createTarea (tareaContent) {
     tareaText.value = "";
 
     displayTarea();
+}
+
+function validarTask () {
+    if (tareaText.value == "" || tareaText.value == "" ) {
+        alert('Ingresa una tarea valida!')
+    } else {
+        createTarea(tareaText.value)
+    }
 }
 
 function displayTarea () {
