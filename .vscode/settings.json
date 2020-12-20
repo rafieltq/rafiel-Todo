@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#521D0F",
+        "titleBar.activeBackground": "#722815",
+        "titleBar.activeForeground": "#FEF9F7"
+    },
+    "liveServer.settings.multiRootWorkspaceName": "rafiel-todo"
+}
